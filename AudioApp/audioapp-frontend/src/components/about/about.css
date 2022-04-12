@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.about {
+  background-color: rgb(26, 26, 26);
+  display: flex;
+  align-items: center;
+  height: 70vh;
+}
+
+.aboutLeft,
+.aboutRight {
+  flex: 3;
+}
+
+.aboutLeft {
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+}
+.aboutDesc {
+  width: 80%;
+  margin-top: -300px;
+  color: white;
+  margin-bottom: 100px;
+  display: flex;
+}
+.aboutRight {
+  margin-right: 50px;
+  color: white;
+  margin-left: 250px;
+}
+
+.socialsList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  margin-top: -300px;
+}
+
+.socialsListIcon {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.socialsListIcon:hover {
+  color: rebeccapurple;
+}
+
+.socialsListItem {
+  margin-left: 250px;
+  display: flex;
+  margin-right: 150px;
+}
+
+.socialsListItem > h3 {
+  margin-right: 40px;
+  margin-bottom: 60px;
+  font-size: 24px;
+}
+
+.developer {
+  color: rebeccapurple;
+  margin-bottom: -740px;
+  display: flex;
+  margin-top: 170px;
+}
+
+.devsocialsList {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.devsocialsListIcon {
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.vl {
+  border-left: 6px solid rgb(255, 255, 255);
+  height: 100px;
+  margin-right: 20px;
+}

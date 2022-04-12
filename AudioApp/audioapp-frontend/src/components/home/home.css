@@ -1,0 +1,14 @@
+/* .home {
+  margin-top: 40px;
+} */
+
+.audio_player_style {
+  height: 87vh;
+}
+
+.featured_post_style {
+  /* background-color: rgb(250, 250, 250); */
+  height: 70vh;
+  padding-left: 150px;
+  padding-right: 150px;
+}

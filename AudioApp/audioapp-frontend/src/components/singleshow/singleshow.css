@@ -1,0 +1,75 @@
+.list {
+  width: 100%;
+  margin-top: 10px;
+  background-color: rgb(26, 26, 26);
+  height: 100vh;
+}
+
+.radioshows {
+  color: rgb(255, 255, 255);
+
+  text-align: center;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.singleshows {
+  display: flex;
+  color: white;
+  margin: 50px;
+  margin-left: 10px;
+  max-width: max-content;
+  transform: translateX(0px);
+  transition: all 1s ease-in;
+}
+
+.poster-image {
+  width: 450px;
+  height: 700px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.showinfo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(26, 26, 26, 0.5);
+  color: #fff;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s;
+  text-align: center;
+}
+.showdesc {
+  margin-top: 150px;
+  padding: 20px;
+}
+
+.singleshows:hover .showinfo {
+  visibility: visible;
+  opacity: 1;
+}
+
+.arrow-left {
+  transform: scale(3);
+  color: red;
+  background-color: rgb(22, 22, 22);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  cursor: pointer;
+  z-index: 99;
+}
+.arrow-right {
+  transform: scale(3);
+  color: red;
+  background-color: rgb(22, 22, 22);
+  position: absolute;
+  top: 50%;
+  right: 0;
+  cursor: pointer;
+}
